@@ -3,7 +3,6 @@ from newscatcherapi import NewsCatcherApiClient
 from dotenv import load_dotenv
 import os
 
-# api = '_kieLqn_kqG_KdbmyXMz83r0HrB_eUejOcwWfz870SE'
 load_dotenv(".env")
 get_articles_api = NewsCatcherApiClient(x_api_key=os.getenv("api"))
 
